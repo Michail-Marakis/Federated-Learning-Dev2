@@ -151,7 +151,7 @@ class Server(object):
             os.path.join(save_dir, f'model_final_round{cur_round}.bin')
         )
 
-    return eval_metric, metric_type
+        return eval_metric, metric_type
     
     
     def eval_loss(self, cur_round):
